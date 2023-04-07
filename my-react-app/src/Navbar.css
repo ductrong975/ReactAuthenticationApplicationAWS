@@ -1,0 +1,27 @@
+.Navlink,
+.logout-button {
+  text-decoration: none;
+  color: #a09898;
+  font-size: 1rem; /* Increase font size */
+  margin-right: 2rem; /* Add margin between elements */
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+}
+
+.Navlink.active {
+  font-weight: bold;
+  color:black
+}
+
+/* Add hover effect */
+.Navlink:not(.active):hover,
+.logout-button:hover {
+  color: #222; /* Darker color on hover */
+  background-color: rgb(201, 146, 146);
+}
